@@ -1,4 +1,4 @@
-# PaulBot built using the Smooch Bot example
+# BslBot built using the Smooch Bot example
 
 The purpose of this bot implementation is to show BSL Bot Scenario Language in action. Go test the bot in action on Messanger:
 http://m.me/1776083119303814
@@ -26,19 +26,19 @@ Creating this version will give you a web based chat app. With a few integration
 
     [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/rimpa/PaulBot)
 
-1. Your app should now be running on Heroku but you're not quite done yet. Take note of the URL where your heroku app is running, for example `https://foo-bar-4242.herokuapp.com`. You'll need to specify this in your heroku app `SERVICE_URL` config variable. You can do this in the Heroku control panel under *Settings* > *Config Variables*. Make sure to go under Deploy and connect to your GitHub repo. Then, enable Automatic Deploys from the master branch (this means anytime you make an edit to your bot's script, it'll automatically update and talk as intended in seconds.) 
+1. Your app should now be running on Heroku but you're not quite done yet. Take note of the URL where your heroku app is running, for example `https://foo-bar-4242.herokuapp.com`. You'll need to specify this in your heroku app `SERVICE_URL` config variable. You can do this in the Heroku control panel under *Settings* > *Config Variables*. Make sure to go under Deploy and connect to your GitHub repo. Then, enable Automatic Deploys from the master branch (this means anytime you make an edit to your bot's script, it'll automatically update and talk as intended in seconds.)
 
 1. You should be all set. Open your Heroku app and start chatting with your new bot!
 
 ##Teach Your Bot To Talk
 Now that you have a bot you need to decide what it'll say. That's where the file script.bsl comes in. It's the document you need to edit to make your bot talk.
 
-By clicking on the pencil icon you can edit the document. 
+By clicking on the pencil icon you can edit the document.
 
 ## Here is a short intro to BSL syntax:
 
 ###Start tag
-Start the main scenario, this part of scenario is executed then the used ineracts with the bot for the first time. Example: 
+Start the main scenario, this part of scenario is executed then the used ineracts with the bot for the first time. Example:
 ```
 START THE_NAME_OF_SCRIPT
 ```
