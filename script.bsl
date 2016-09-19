@@ -52,9 +52,9 @@ END
 
 SCENARIO  BOT2 "i_am_here_for_the_bot2"
 SAY       "See my BSL script"
-SAY       "%[BSL on GitHub](https://github.com/rimpa/PaulBot/blob/master/script.bsl)"
+SAY       "%[BSL on GitHub](https://github.com/rimpa/BslBot/blob/master/script.bsl)"
 SAY       "Instructions how to create your own bot on BSL"
-SAY       "%[GitHub](https://github.com/rimpa/PaulBot/)"
+SAY       "%[GitHub](https://github.com/rimpa/BslBot/)"
 SAY       "%[more](postback:i_am_here_for_the_bot3)"
 END
 
